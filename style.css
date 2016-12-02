@@ -1,0 +1,178 @@
+body{
+    font-family: 'Philosopher', sans-serif;
+}
+body, section, header, footer, h1, h2, h3, p, hr,
+ .hmenu > ul > li, .sidebar > ul > li, aside > ul > li{
+    margin: 0;
+}
+footer, .container, .sidebar{
+    overflow: inherit;
+}
+.hmenu, .sidebar, .par, .reclame, .sotr, .project{
+    float: left;
+}
+img, aside, .content, .kont, .sotrkont{
+    float: right;
+}
+h1, footer ul a{
+    color: deepskyblue;
+}
+a, .sidebar > h2, aside > ul a{
+     color: dodgerblue;
+}
+.hmenu > ul a, .absposition > h2, footer h3{
+    color: white;
+}
+section, .copyright{
+    background-color:ghostwhite;
+}
+footer, header, .absposition > h2{
+    background-color: dimgray;
+}
+.sidebar > ul > li, aside > ul > li{
+    border-left: 5px solid dodgerblue;
+    list-style: none;
+}
+p, .sidebar > ul > li, aside > ul > li{
+    padding: 10px;
+}
+.container, .copyright, .absposition{
+    width: 800px;
+}
+.sotr, .kont, .project{
+    width: 33%;
+}
+h1, h2, h3{
+    padding-top: 20px;
+}
+h3, .copyright{
+    font-size: 24px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;   
+}
+h2{
+    font-size: 36px;
+    text-align: center;   
+}
+section{
+    padding-bottom: 30px;
+}
+header{
+    padding-top: 10px;
+    margin-top: 50px;
+}
+footer{
+    padding-bottom: 70px;
+}
+img{
+    padding-right: 5px;
+    height: 140px;
+    width: 18%;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.clearfix{
+    clear: both;
+}
+.hmenu > ul a{
+    font-size: 30px;
+}
+.container{
+    margin: 0 auto;
+}
+.hmenu{
+    width: 80%;
+}
+.hmenu > ul{
+    padding: 20px;
+    list-style: none;
+    margin-bottom: 0;
+}
+.hmenu > ul > li {
+    padding-left: 30px;
+    display: inline-block;
+}
+.sidebar > h2{
+    padding-top: 20px;
+}
+.sidebar{
+    width: 20%;
+}
+.sidebar > ul{
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.content{
+    width: 80%;
+}
+.par{
+    width: 500px;
+}
+aside > ul{
+    padding: 0;
+    width: 110px;
+    margin-top: 40px;
+}
+.reclame{
+    margin: 190px 10px 0;
+    height: 100px;
+    width: 90%;
+}
+.copyright{
+    color:black;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 5px;
+    padding: 10px 0;
+}
+.absposition{
+    position: absolute;
+    top: 5px;
+}
+.absposition > h2{
+    width: 200px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+footer h3{
+    margin-left: 60px;
+    margin-top: 0;
+}
+footer ul{
+     list-style: none;
+}
+footer ul > li{
+    padding: 5px;
+    margin-left: 15px;
+}
+.sotrkont{
+    width:77%;
+}
+#client, #server{
+    text-align: left;
+    padding-left: 110px;;
+}
+@keyframes rotates{
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+header > img:hover{
+    animation: rotates 1s;
+}
+.content img:hover{
+    transform: scale(2);
+}
+.content img{
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Веб-программирование</title>
+        <link href="style.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Philosopher:400,400i&amp;subset=cyrillic" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="copyright">&copy; Evgeny Popkov</h2>
+            <div class="absposition">
+                <h2>Float</h2>
+            </div>
+            
+            <header>
+                <div class ="hmenu">
+                    <h1>Web программирование</h1>
+                    <ul>
+                        <li><a href="#client">Клиент</a></li>
+                        <li><a href="#server">Сервер</a></li>
+                        <li><a href="#frontback">Front-end и Back-end</a></li>
+                    </ul>
+                </div>
+                <img src="images/web.png"/>
+                <div class="clearfix"></div>
+            </header>
+            
+            <section>
+                <div class="sidebar">
+                    <h2>Меню</h2>
+                    <ul>
+                        <li><a href="#client">Клиент</a></li>
+                        <li><a href="#server">Сервер</a></li>
+                        <li><a href="#frontback">Front-end и Back-end</a></li>
+                    </ul>
+                    <img src="images/reclame.jpg" class="reclame"/>  
+                </div>
+                
+                <div class="content">
+                    <div>
+                        <h2 id="client">Клиентские языки</h2>
+                        <p class="par">
+                            Как следует из названия, программы на клиентских языках обрабатываются на стороне пользователя, как правило, их выполняет браузер.
+                            Это и создает главную проблему клиентских языков — результат выполнения программы (скрипта) зависит от браузера пользователя.
+                        </p>
+                        <img src ="images/html.png"/>
+                        <div class="clearfix"></div>
+                        <p class="par">
+                            То есть, если пользователь запретил выполнять клиентские программы, то они исполняться не будут, как бы ни желал этого программист.
+                            Кроме того, может произойти такое, что в разных браузерах или в разных версиях одного и того же браузера один и тот же скрипт будет выполняться по-разному.
+                            С другой стороны, если программист возлагает надежды на серверные программы, то он может упростить их работу и снизить нагрузку на сервер за счет программ,
+                            исполняемых на стороне клиента, поскольку они не всегда требуют перезагрузку (генерацию) страницы.
+                        </p>
+                        <aside>
+                            <ul>
+                                <li><a href="http://html.com/">HTML</a></li>
+                                <li><a href="https://css-tricks.com/">CSS</a></li>
+                                <li><a href="https://www.javascript.com/">JavaScript</a></li>
+                            </ul>
+                        </aside>
+                       <div class="clearfix"></div>
+                    </div>
+                        
+                    <div>
+                        <h2 id="server">Серверные языки</h2>
+                        <p class="par">
+                            Когда пользователь дает запрос на какую-либо страницу (переходит на неё по ссылке или вводит адрес в адресной строке своего браузера),
+                            то вызванная страница сначала обрабатывается на сервере, то есть выполняются все программы, связанные со страницей,
+                            и только потом возвращается к посетителю по сети в виде файла.
+                            Этот файл может иметь расширения: HTML, PHP, ASP, ASPX, Perl, SSI, XML, DHTML, XHTML.
+                        </p>
+                        <img src ="images/asp.png"/>
+                        <div class="clearfix"></div>
+                        <p class="par">
+                            Работа программ уже полностью зависима от сервера, на котором расположен сайт, и от того, какая версия того или иного языка поддерживается.
+                            К серверным языкам программирования можно отнести: PHP, Perl, Python, Ruby, любой .NET язык программирования (технология ASP.NET), Java, Groovy.
+                            Важной стороной работы серверных языков является возможность организации непосредственного взаимодействия с
+                            системой управления базами данных (или СУБД) — сервером базы данных, в которой упорядоченно хранится информация, которая может быть вызвана в любой момент.
+                        </p>
+                        <aside>
+                            <ul>
+                                <li><a href="https://secure.php.net/">PHP</a></li>
+                                <li><a href="https://www.asp.net/">ASP</a></li>
+                                <li><a href="https://www.python.org/">Python</a></li>
+                            </ul>
+                        </aside>
+                        <div class="clearfix"></div>
+                    </div>
+        
+                    <div >
+                        <h2 id="frontback">Front-end и Back-end разработка</h2>
+                        <p>
+                            Front-end и Back-end разработка – это процесс создания сайта разделенный на две части, клиентскую и серверную.
+                            Клиентская часть это front-end разработка, к ней можно отнести CSS верстку, создание макета и шаблонов для сайта, а также пользовательского интерфейса и специальных скриптов,
+                            отвечающих за визуализацию и анимацию. К серверной части (back-end разработке) относится создание ядра сайта, разработка платформы, основного функционала и административной части.
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </section>   
+             
+            <footer>
+                <div class="project">
+                   <h3>ПРОЕКТЫ</h3>
+                   <ul>
+                        <li><a href="https://www.google.ru/">Google</a></li>
+                        <li><a href="https://www.yandex.ru/">Yandex</a></li>
+                    </ul>
+                </div>
+                <div class="cotrkont">
+                    <div class="sotr">
+                        <h3>ПАРТНЕРЫ</h3>
+                        <ul>
+                            <li><a href="https://www.microsoft.com/ru-ru/">Microsoft</a></li>
+                            <li><a href="http://www.apple.com/ru/">Apple</a></li>
+                        </ul>
+                    </div>
+                    <div class="kont">
+                        <h3 >КОНТАКТЫ</h3>
+                        <ul>
+                            <li><a href="https://vk.com/">Вконтакте</a></li>
+                            <li><a href="https://ru-ru.facebook.com/">Facebook</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+        </div>
+    </body>
+</html>
